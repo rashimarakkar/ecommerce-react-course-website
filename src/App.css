@@ -270,6 +270,7 @@ body {
 .auth-link {
   color: #007bff;
   text-decoration: none;
+  cursor: pointer;
   font-weight: 500;
 }
 
