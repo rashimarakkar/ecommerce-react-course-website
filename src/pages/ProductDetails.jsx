@@ -22,9 +22,7 @@ export default function ProductDetails() {
     }
     getProduct()
     
-  }, [id]);  const setMode = (newMode) => {
-  setSearchParams({ mode: newMode });
-};
+  }, [id]);
 
   if (!product) {
     return <h1>Loading...</h1>;
